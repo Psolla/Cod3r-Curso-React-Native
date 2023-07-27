@@ -1,5 +1,5 @@
 {
-  "name": "FundamentosReact",
+  "name": "firstproject",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -14,9 +14,9 @@
     "react-native": "0.72.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@babel/preset-env": "^7.20.0",
-    "@babel/runtime": "^7.20.0",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/runtime": "^7.21.0",
     "@react-native/eslint-config": "^0.72.2",
     "@react-native/metro-config": "^0.72.9",
     "@tsconfig/react-native": "^3.0.0",
