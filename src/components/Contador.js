@@ -3,10 +3,10 @@ import { Text, Button } from "react-native";
 import estilo from "./estilo";
 
 export default props => {
-    let numero = props.inicial
+        const [numero, setNumero] = useState(props.inicial)
 
-    const inc = () => numero++  
-    const dec = () => numero--  
+    const inc = () => setNumero(numero + props.passo)
+    const dec = () => setNumero(numero - props.passo)
     
     return (
         <>

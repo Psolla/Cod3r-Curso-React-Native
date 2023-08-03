@@ -8,4 +8,4 @@ export default (props) =>{
             O valor {props.max} é maior que o valor {props.min}
          </Text>
     )
-}
+} 
